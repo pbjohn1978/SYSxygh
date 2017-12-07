@@ -46,7 +46,7 @@ c.close()
 os.system("sudo mysql -u sysxyghWebGUI -pYixkmYBVQO88BaqF5dGNyC9xbt5DD1VmWYkrESMfJvfqPtnKvxkInhPiut45 sysxygh < /var/www/html/SYSxygh/sysxygh.sql") 
 
 file4 = os.path.isfile("/var/www/html/SYSxygh/sysxygh.jsproj")
-file5 = os.path.isfile("/var/www/html/SYSxygh/sysxygh.jsproj.usr")
+file5 = os.path.isfile("/var/www/html/SYSxygh/sysxygh.jsproj.user")
 file6 = os.path.isfile("/var/www/html/SYSxygh/sysxygh.sln")
 file7 = os.path.isfile("/var/www/html/SYSxygh/sysxygh.sql")
 file8 = os.path.isfile("/var/www/html/SYSxygh/taco.json")
@@ -54,7 +54,7 @@ file9 = os.path.isfile("/var/www/html/SYSxygh/README.md")
 
 if(file4 & file5 & file6 & file7 & file8 & file9):
     os.system("sudo rm /var/www/html/SYSxygh/sysxygh.jsproj")
-    os.system("sudo rm /var/www/html/SYSxygh/sysxygh.jsproj.usr")
+    os.system("sudo rm /var/www/html/SYSxygh/sysxygh.jsproj.user")
     os.system("sudo rm /var/www/html/SYSxygh/sysxygh.sln")
     os.system("sudo rm /var/www/html/SYSxygh/sysxygh.sql")
     os.system("sudo rm /var/www/html/SYSxygh/taco.json")
