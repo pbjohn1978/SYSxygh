@@ -1,7 +1,16 @@
 <?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
-	
+	require_once('./zSntUkOYX5MGUGz7duv3.php');
+	require_once('./mpT7nJTHkLFr5GK4jdXo.php');
+	require_once('./ava3KsVUvw8syHCJpitM.php');
+	session_start();
+	$userGuid = '';
+	if( isset($_SESSION['userGuid']) ){
+	$userGuid = $_SESSION['userGuid'];
+	}
+	$login = new sessionHelper;
+	if( !($login->{'isUserLoggedIn'}()) ){
+	    header('Location: ../home.php?message=Did You Reach This Page In Error?');
+	}
 	$target_dir = "../UPLOADED_TO_SERVER/";
 	if( !(is_dir($target_dir)) ){
 		mkdir("../UPLOADED_TO_SERVER", 0777);
