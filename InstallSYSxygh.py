@@ -1,4 +1,3 @@
-#!/bin/bash
 import os
 import MySQLdb as mdb
 import socket 
