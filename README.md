@@ -34,3 +34,5 @@ from your command line run the following commands:
 >-> sudo python ./SYSxygh/InstallSYSxygh.py
 ```
 You will than see output giving the proper URL to go to and sign in to the SYSxygh web GUI.
+
+THIS SOFTWARE COMES WITH NO WARRENTY OF ANY KIND... THIS SOFTWARE COMES WITH NO LICENCE, USE IT IF YOU WANT...
