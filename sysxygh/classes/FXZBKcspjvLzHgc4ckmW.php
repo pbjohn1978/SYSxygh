@@ -10,7 +10,7 @@
     }
     $login = new sessionHelper;
     if( $login->{'isUserLoggedIn'}() && isset($_GET['fileToDelete']) ){
-		$fileToDelete = '/var/www/html/sysxygh/UPLOADED_TO_SERVER/' . $_GET['fileToDelete'];
+		$fileToDelete = '/var/www/html/SYSxygh/sysxygh/UPLOADED_TO_SERVER/' . $_GET['fileToDelete'];
 		if( file_exists($fileToDelete) && is_file($fileToDelete) ){
 			if( unlink($fileToDelete) ){
 				header('Location: ../utsManagement.php?message=File "' . $_GET['fileToDelete'] .'" was deleted.');
