@@ -31,8 +31,6 @@ from your command line run the following commands:
 
 >-> sudo git clone https://github.com/pbjohn1978/SYSxygh/
 
->-> cd /var/www/html/SYSxygh/
-
->-> sudo python InstallSYSxygh.py
+>-> sudo python ./SYSxygh/InstallSYSxygh.py
 ```
 You will than see output giving the proper URL to go to and sign in to the SYSxygh web GUI.
