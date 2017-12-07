@@ -1,0 +1,272 @@
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+h5{
+    padding: 0px;
+    margin: 0px;
+}
+h6{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navMenu{
+    width: 100%;
+    background:#252252;
+}
+#navMenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+#navMenu ul li{
+    display: inline-block;
+}
+#navMenu ul li a{
+    display: block;
+    height: 35px;
+    width: 200px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+}
+#navMenu ul li a:hover{
+    background-color: darkgrey;
+    color: darkblue;
+}
+#navMenu ul ul{
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+#navMenu ul ul li{
+    display: block;
+    background:#003489;
+}
+#pageContainer{
+    max-width:3500px;
+    max-height: none;
+}
+#header{
+    padding: 0px;
+    width: 100% - 2px;
+    height: 140px;
+    border-bottom: 2px solid black;
+}
+#titleDiv{
+    float: left;
+    font-size: 7vw;
+    max-height: 100px;
+    margin: 15px 0px 0px 35px;
+}
+#title{
+    color: white;
+}
+#loginBoxes{
+    color: white;
+    padding: 15px 30px 0px 0px;
+    float: right;
+}
+#loginForm input[type=text] {
+    width: 55%;
+    height: auto;
+    padding: 6px 20px 0px 0px;
+    margin: 8px 0px 0px 0px;
+    box-sizing: border-box;
+}
+#pword{
+    padding: 0px 4px 0px 0px;
+}
+#mainBody{
+    height:calc(100% - 140px);
+}
+#shell {
+	border-style: groove;
+    color: #eee;
+    font-family: monospace;
+    margin: 0px 0px 0px 0px;
+    background: #222;
+    width: 550px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    font-size: 7pt;
+}
+#shell-content {
+    height: 360px;
+    overflow: auto;
+    margin: 0px 0px 0px 3px;
+    padding: 0px;
+    white-space: pre-wrap;
+}
+.shell-prompt {
+    font-weight: bold;
+    color: #75DF0B;
+}
+.shell-prompt > span {
+    color: #1BC9E7;
+}
+#shell-input {
+    display: flex;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    border-top: rgba(255, 255, 255, .05) solid 1px;
+}
+#shell-input > label {
+    flex-grow: 0;
+    display: block;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+}
+#shell-input > input {
+    flex-grow: 1;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    border: none;
+    background: transparent;
+    color: #eee;
+    font-family: monospace;
+    font-size: 10pt;
+}
+#shellIframe{
+    padding: 5px 0px 5px 5px;
+}
+#width100{
+    width: calc(100% - 16px);
+}
+#homeIFrame{
+	width:calc(100% - 16px);
+}
+.width100pct{
+	width: calc(100% - 16px);
+}
+.margin10px{
+	margin:10px;
+}
+.height10px{
+	height:10px;
+}
+.borderGroove{
+	border-style: groove;
+}
+.padding10px{
+	padding:10px;
+}
+.padding5px{
+	padding:5px;
+}
+.padding15px{
+	padding:15px;
+}
+.bottemBoarder{
+	border-bottom:2px solid #d4d6d4;
+}
+.bgBlack{
+	background:#222;
+}
+.textRed{
+	color:red;
+}
+.textWhite{
+	color:white;
+}
+.textGreen{
+	color:#50f442;
+}
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
+.clearFloat{
+	clear:both;
+}
+.textToCenter{
+	text-align:center;
+}
+#filesInDir{
+	margin:4px 0px 0px 0px;
+}
+#filesInDirPageManagement{
+	margin:15px 0px 0px 10px;
+	width: 95%;
+}
+#uploadFormDiv{
+	margin:15px 0px 0px 10px;
+	width: 95%;
+	height: 100px;
+}
+#uploadFormDiv form{
+	padding: 35px 0px 0px 50px;
+}
+.width300px{
+	width:300px;
+}
+.width500px{
+	width:500px;
+}
+.arpDataWidth{
+	width:250px;
+}
+.width80percent{
+	width:80%;
+}
+#message{
+	color:red;
+}
+#icmpBox a:link{
+	text-decoration:none;
+	color:#828aff;
+}
+#icmpBox a:visited{
+	text-decoration:none;
+	color:white;
+}
+#icmpBox a:hover{
+	text-decoration:underline;
+	color:green;
+}
+#icmpBox a:active{
+	text-decoration:underline;
+	color:#828aff;
+}
+
+@media screen and (max-width: 700px) {
+    #titleDiv{
+        width: 90%;
+    }
+    #loginBoxes{
+        color: white;
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #pageContainer {
+        
+    }
+    #titleDiv {
+        font-size: 500%;
+    }
+    
+}
