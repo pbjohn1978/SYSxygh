@@ -16,20 +16,22 @@ and port scans more quickly I utilize Mult-threading so the process doesn’t ta
 than 20 seconds.
 
 # Requirements:
-python installed
-PHP installed (5.0+)
-MySQL installed 
+```
+python installed,
+PHP installed (5.0+),
+MySQL installed,
 Apache installed (2.0+)
+```
 
 # TO INSTALL:
 from your command line run the following commands:
+```
+>-> cd /var/www/html/
 
->>> cd /var/www/html/
+>-> sudo git clone https://github.com/pbjohn1978/SYSxygh/
 
->>> sudo git clone https://github.com/pbjohn1978/SYSxygh/
+>-> cd /var/www/html/SYSxygh/
 
->>> cd /var/www/html/SYSxygh/
-
->>> sudo python InstallSYSxygh.py
-
+>-> sudo python InstallSYSxygh.py
+```
 You will than see output giving the proper URL to go to and sign in to the SYSxygh web GUI.
