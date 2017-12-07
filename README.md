@@ -17,6 +17,7 @@ than 20 seconds.
 
 # Requirements:
 ```
+Linux ( Tested on KALI Linux which meets all requirements but not suggested for a production environment )
 python installed
 PHP installed (5.0+)
 MySQL installed
