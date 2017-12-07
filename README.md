@@ -17,9 +17,9 @@ than 20 seconds.
 
 # Requirements:
 ```
-python installed,
-PHP installed (5.0+),
-MySQL installed,
+python installed
+PHP installed (5.0+)
+MySQL installed
 Apache installed (2.0+)
 ```
 
