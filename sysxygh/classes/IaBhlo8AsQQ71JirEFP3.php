@@ -10,7 +10,7 @@
     }
     $login = new sessionHelper;
     if( $login->{'isUserLoggedIn'}() && isset($_GET['fileToDownload']) ){
-		$fileToDL = '/var/www/html/sysxygh/UPLOADED_TO_SERVER/' . $_GET['fileToDownload'];
+		$fileToDL = '/var/www/html/SYSxygh/sysxygh/UPLOADED_TO_SERVER/' . $_GET['fileToDownload'];
 		if( file_exists($fileToDL) && is_file($fileToDL) ){
 			$basename = basename($fileToDL);
 			header("Content-disposition: attachment; filename=$basename");
