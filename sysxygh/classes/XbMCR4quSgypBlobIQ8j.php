@@ -1,7 +1,16 @@
 <?php
-	require_once('ava3KsVUvw8syHCJpitM.php');
-    require_once('mpT7nJTHkLFr5GK4jdXo.php');
-    session_start();
+	require_once('./zSntUkOYX5MGUGz7duv3.php');
+	require_once('./mpT7nJTHkLFr5GK4jdXo.php');
+	require_once('./ava3KsVUvw8syHCJpitM.php');
+	session_start();
+	$userGuid = '';
+	if( isset($_SESSION['userGuid']) ){
+		$userGuid = $_SESSION['userGuid'];
+	}
+	$login = new sessionHelper;
+	if( !($login->{'isUserLoggedIn'}()) ){
+	    header('Location: ../home.php?message=Did You Reach This Page In Error?');
+	}
 	echo $_POST['fname'] . '<br>';
 	echo $_POST['lname'] . '<br>';
 	echo $_POST['uname'] . '<br>';
